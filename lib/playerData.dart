@@ -12,7 +12,7 @@ class PlayerDataState extends State<PlayerData>{
     Widget playerListView = ListBuilder(playerList);
     return Scaffold(
       appBar: AppBar(
-        title: Text('芝浦工大 選手データ'),
+        title: Text('選手データ'),
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.add),
